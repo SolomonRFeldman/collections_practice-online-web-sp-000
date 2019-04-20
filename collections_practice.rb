@@ -58,6 +58,7 @@ end
 def add_s(array)
   array.each_with_index.collect { |string, index|
     if index != 1
-      string.
+      string + "s"
+    end
 end
 puts ([5,6,7]).inject { |sum, x| sum + x } 
