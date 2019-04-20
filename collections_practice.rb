@@ -55,4 +55,4 @@ def sum_array(array)
   
 end
 
-puts 
+puts ([5,6,7]).inject { |sum, x| sum + x } 
