@@ -60,5 +60,6 @@ def add_s(array)
     if index != 1
       string + "s"
     end
+  }
 end
 puts ([5,6,7]).inject { |sum, x| sum + x } 
