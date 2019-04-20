@@ -52,7 +52,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  
+  array.inject { |sum, num| sum + num }
 end
 
 puts ([5,6,7]).inject { |sum, x| sum + x } 
