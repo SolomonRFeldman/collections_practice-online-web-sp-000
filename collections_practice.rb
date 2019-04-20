@@ -51,4 +51,5 @@ def find_a(array)
   a_array
 end
 
-def 
+def sum_array(array)
+  
